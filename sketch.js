@@ -21,6 +21,7 @@ function setup() {
     ball_optiions= {
 		restitution:0.95,
 		frictionAir:0.01,
+	    density:0.1,
 	  }
 	  ball = Bodies.circle(100,10,20,ball_optiions) 
 	  World.add(world,ball)
